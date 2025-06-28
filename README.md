@@ -8,3 +8,5 @@ VoodooHDA Tahoe is a utility that allows you to install VoodooHDA
 ```bash
 git clone https://github.com/chris1111/VoodooHDA-Tahoe.git && cd $HOME/VoodooHDA-Tahoe && ./Package.command && open -R $HOME/VoodooHDA-Tahoe/VoodooHDA-Tahoe.pkg
 ```
+
+* You can rebuild the VoodooHDA-Tahoe.pkg any time by double click to Package.command
