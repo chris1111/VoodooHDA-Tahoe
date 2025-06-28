@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>VoodooHDA Tahoe</title>
+    <pkg-ref id="com.VoodooHDATahoe">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.2" CFBundleVersion="1.2" id="org.voodoo.VoodooHDA" path="VoodooHDA.prefPane"/>
+            <bundle CFBundleShortVersionString="3.0.2" CFBundleVersion="3.0.2" id="org.voodoo.driver.VoodooHDA" path="VoodooHDA.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <options customize="never" allow-external-scripts="false"/>
+    
+   <domains enable_anywhere="true"/>
+    <background file="background.png" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background.png" alignment="center" scaling="tofit"/>
+    <welcome file="intro-text.rtf" mime-type="application/rtf"/>
+    <conclusion file="post-readme.rtfd" mime-type="application/rtf"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.VoodooHDATahoe"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.VoodooHDATahoe" visible="false">
+        <pkg-ref id="com.VoodooHDATahoe"/>
+    </choice>
+    <pkg-ref id="com.VoodooHDATahoe" version="1" onConclusion="none" installKBytes="616" updateKBytes="0">#VoodooHDATahoe.pkg</pkg-ref>
+</installer-gui-script>

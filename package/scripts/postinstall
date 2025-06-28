@@ -1,0 +1,17 @@
+#!/bin/sh
+# Copyright © 2025 chris1111. All Right Reserved.
+
+chmod -R 755 /Private/tmp/VoodooHDA.kext
+chown -R root:wheel /Private/tmp/VoodooHDA.kext
+Sleep 1
+cp -R /Private/tmp/VoodooHDA.kext /Library/Extensions/
+cp -R /Private/tmp/VoodooHDA.prefPane $HOME/Library/PreferencePanes
+
+echo "Touch Extensions"
+touch "${3}/Library/Extensions/"
+Sleep 5
+rm -rf /Private/tmp/VoodooHDA.kext
+rm -rf /Private/tmp/VoodooHDA.prefPane
+
+
+
