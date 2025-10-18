@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22A400</string>
+	<string>25A354</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.0.2</string>
+	<string>3.0.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.0.2</string>
+	<string>3.0.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>14B47b</string>
+	<string>25B5057c</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>13.0</string>
+	<string>26.1</string>
 	<key>DTSDKBuild</key>
-	<string>22A372</string>
+	<string>25B5057c</string>
 	<key>DTSDKName</key>
-	<string>macosx13.0</string>
+	<string>macosx26.1</string>
 	<key>DTXcode</key>
-	<string>1410</string>
+	<string>2610</string>
 	<key>DTXcodeBuild</key>
-	<string>14B47b</string>
+	<string>17B5035f</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>VoodooHDA</key>
@@ -94,7 +94,7 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.14.6</string>
+	<string>10.9</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOAudioFamily</key>
