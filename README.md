@@ -13,3 +13,5 @@ git clone https://github.com/chris1111/VoodooHDA-Tahoe.git && cd $HOME/VoodooHDA
 ```
 
 * You can rebuild the VoodooHDA-Tahoe.pkg any time by double click to Package.command
+
+### If you have HP Prodesk 600 G1 like me, use this branch ➦ [prodesk-600-g1](https://github.com/chris1111/VoodooHDA-Tahoe/tree/prodesk-600-g1)
