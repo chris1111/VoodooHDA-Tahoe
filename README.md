@@ -1,4 +1,6 @@
-# VoodooHDA-Tahoe
+# VoodooHDA-Tahoe 
+Especially for HP Prodesk 600 G1
+
 VoodooHDA Tahoe is a utility that allows you to install VoodooHDA
 
 ### Package to using in macOS Tahoe 26
