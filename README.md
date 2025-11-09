@@ -1,5 +1,5 @@
 # VoodooHDA-Tahoe 
-Especially for HP Prodesk 600 G1
+Especially for HP Prodesk 600 G1 (VoodooHDA Version: 2.9.2)
 
 VoodooHDA Tahoe is a utility that allows you to install VoodooHDA
 
