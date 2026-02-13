@@ -1,6 +1,8 @@
 # VoodooHDA-Tahoe
 VoodooHDA Tahoe is a utility that allows you to install VoodooHDA
 
+<img src="https://hitscounter.dev/api/hit?url=https://github.com/chris1111&label=VISITORS&icon=gift&color=%23198754&message=&style=for-the-badge&tz=US%2FEastern">
+
 ### Package to using in macOS Tahoe 26
 - Make sure to remove VoodooHDA.kext and VoodooHDA.prefPane if it is already installed on your system, after deleting VoodooHDA you will need to reboot your macOS before using this program.
 <img src="package/Pics/Open.png" alt="Github Project" style="width:85%;">
